@@ -32,6 +32,6 @@ sed -i 's/PATCHVER:=6.6/PATCHVER:=6.12/g' target/linux/x86/Makefile   # x86机�
 # rm -rf feeds/packages/utils/runc/Makefile   # 临时删除run1.0.3
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile feeds/packages/utils/runc/Makefile   # 添加runc1.0.2
 
-
+rm -rf package/lean/autosamba
 #git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
